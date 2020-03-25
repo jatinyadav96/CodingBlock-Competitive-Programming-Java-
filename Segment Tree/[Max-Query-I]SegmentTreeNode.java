@@ -63,7 +63,6 @@ public class SegmentTreeNode {
             arr3[k++] = arr1[i++];
         while (j < n2)
             arr3[k++] = arr2[j++];
-        Arrays.sort(arr3);
         return arr3;
     }
 
